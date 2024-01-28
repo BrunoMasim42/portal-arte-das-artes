@@ -1,0 +1,1290 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+body{
+   
+}
+
+.interface{
+    width: 1000px;
+    margin-left: 50px;
+}
+
+.slogan{
+    font-size: 32px;
+    margin-top: 20px;
+    margin-left: 400px;
+  
+}
+
+.slogan span{
+    color: #ba1503;
+}
+
+section> .container-master{
+    display: flex;
+}
+
+/* Topo-Site */
+
+section.topo-site{
+    padding: 40px 4%;
+   
+    
+}
+
+.flex{
+    display:block;
+}
+
+
+.topo-site .topo-img .banner-topo-01 img{
+    width: 1200px;
+    height: 300px; 
+    margin-left:-30px ;
+    margin-top: 30px;
+    display: block;
+}
+
+.topo-img .banner-topo-02{
+    display: none;
+}
+
+
+
+section.topo-site .flex{
+    align-items: center;
+    justify-content:center;
+    gap: 90px;
+    
+}
+
+.topo-site h1{
+    font-size: 36px;
+    line-height: 50px;
+    margin-top: 80px;
+    margin-left: 200px;
+    
+}
+
+.topo-site .topo-txt h1 span{
+    color: #b30606;
+    font-size: 36px;
+    stroke: none;
+}
+
+.topo-site .topo-txt p{
+    width: 920px;
+    margin: 20px 0;
+    margin-left: -20px;
+    text-align: justify;
+  
+}
+
+
+/* Carrossel */
+
+.carrosel-topo{
+    padding: 40px 4%;
+    width: 920px;
+    height: 600px;
+    margin-left: 80px;
+   
+   
+
+}
+
+.carrosel-topo .flex{
+    display:inline-flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.carrosel-topo .slider{
+    max-width: 700px;
+    max-height: 500px;
+    border: 15px solid #e6050500;
+    margin-left: 29px;
+    margin-top: -15px;
+   
+    
+}
+
+.carrosel-topo .slider .carousel-inner img{
+ 
+    border:15px solid #9c6c03ea;
+    box-shadow: 0px 0px 60px 0px #b80404;
+}
+
+.info-txt{
+    border: 1px solid #9c6c03ea;
+    border-radius: 12px;
+    width: 200px;
+    height: 480px;
+    margin-left: -100px;
+}
+
+.info-txt h5 {
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+
+
+/* Especialidades */
+
+.especialidade{
+    width: 920px;
+    padding: 40px 4%;
+    margin-top: 20px;
+    margin-left: 80px;
+    margin-bottom: 40px;
+   
+}
+
+
+.especialidade .especial-txt{
+    display: flex;
+    gap: 60px;
+    margin-left: -100px;
+}
+
+
+.especialidade .especial-txt2{
+    display: flex;
+    gap: 60px;
+    margin-left: -100px;
+}
+
+
+.especialidade .especial-box{
+    width: 420px;
+    padding: 20px 10px;
+    border: 1px solid #0c0c0c;
+    border-radius: 20px;
+    margin-top: 45px;
+    transform: .2s;
+    gap: 20px;
+}
+
+.especialidade .especial-box:hover{ 
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #0bd3655c;
+    cursor: pointer;
+}
+
+.especialidade .especial-box i{
+    font-size: 70px;
+    color: #058409;
+}
+
+.especialidade .especial-box h3{
+    font-size: 26px;
+    margin: 15px 0;
+    
+}
+
+.especialidade .especial-box p{
+    text-align: justify;
+}
+
+.especialidade h2{
+    margin-left: -80px;
+    color: #845202;
+}
+
+
+
+.traco h1{
+    border: 1px solid #845202;
+    width: 920px;
+    margin-left: 80px;
+}
+
+
+/* Estilizar Noicias */
+
+section> .noticias{
+    width: 920px;
+    padding: 20px 4%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    
+}
+
+.noticias .noticias-txt{
+    display: flex;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.noticia-destaque  a{
+    color: #090909;
+    text-decoration: none;
+    
+}
+
+
+.img-destaque{
+    width: 280px;
+    height: 280px;
+  
+}
+
+.img-destaque p{
+    margin-top: -90px;
+    text-align: justify;
+
+}
+
+.noticias h2{
+    color: #845202;
+}
+
+
+
+
+/* Banner Anuncio */
+.anuncio .anuncio-img .anuncio01{
+    width: 920px;
+    height: 580px;
+    border: 1px solid #090909;
+    margin-top: 120px;
+    margin-left: 30px;
+    margin-bottom: 90px;
+}
+
+.anuncio .anuncio-img .anuncio02{
+    display: none;
+}
+
+
+
+
+
+/* fORM */
+
+
+
+section.banner-contato .contato-pg{
+    position: absolute;
+    width: 920px;
+    height: 580px;
+    margin-left: 80px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.banner-contato .contato-sg{
+    position: absolute;
+    display: none;
+    width: 100%;
+    max-height: 500px;
+    height: 100%;
+}
+
+.txt-end{
+    position: relative;
+    margin-top: -180px;
+    margin-left: 180px;
+}
+
+.interface form{
+    position: relative;
+    padding: 80px 4%;
+    margin-top: 200px;
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.interface form input, form textarea{
+    width: 100%;
+    background-color: #f6f1f1a8;
+    border: 0;
+    outline: 0;
+    padding: 18px 15px;
+    border-radius: 15px;
+    color: #0c0c0c;
+    font-size: 18px;
+}
+.interface h5{
+   font-size: 20px;
+   font-family: 'Poppins', sans-serif;
+}
+
+.interface h5 span{
+    color: #880303;
+}
+form textarea{
+    resize: none;
+    max-height: 200px;
+}
+
+form textarea::placeholder{
+    color: #e60505;
+}
+
+.interface form input::placeholder{
+    color: #e60505;
+}
+
+
+/* ESTILIZAR APOIADORES */
+.container-parceiros .interface{
+    width: 290px;
+    margin-top: -3750px;
+    margin-left: 1015px;
+    
+}
+
+.container-parceiros .heading{
+    font-size: 30px;
+    padding-bottom: 25px;
+}
+
+
+
+.container-parceiros .container-logo{
+    align-items: center;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 120px;
+    padding: 30px;
+}
+
+@keyframes fadeIn{
+    0%{
+        transform: scale(.2) translateY(-10px);
+        opacity: 0;
+    }
+}
+
+.container-parceiros .container-logo .logo-parca-parceiro{
+    width: 100%;
+    height: 450px;
+    border: 1px solid #845202;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 5px 10px rgb(0, 0, 0, 0.1);
+    padding:10px;290
+    animation: fadeIn .2s linear;
+    
+}
+
+.container-parceiros .container-logo .logo-parca-parceiro img{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    
+}
+
+.container-parceiros .container-logo .logo-parca-parceiro img:hover{
+    transform: scale(1.1);
+}
+
+.container-parceiros .container-logo .logo-parca-parceiro h3{
+    font-size: 20px;
+    color: #2c3e50;
+
+
+}
+
+
+/* Parceiros Mobile */
+
+.container2 .interface{
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+    display: none;
+}
+
+.container2 .interface h2{
+    color: #845202;
+    margin-left: -80px;
+}
+
+.container2 .heading{
+    font-size: 30px;
+    padding-bottom: 25px;
+}
+
+.container2 #search-box{
+    text-align: center;
+    border-radius: 30px;
+    font-size: 20px;
+    padding: 12px 15px;
+    border: 3px solid #be0404;
+    width: 600px;
+}
+
+.container2 .container-logo{
+    align-items: center;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 30px;
+}
+
+@keyframes fadeIn{
+    0%{
+        transform: scale(.7) translateY(-10px);
+        opacity: 0;
+    }
+}
+
+.container2 .container-logo .logo-parca{
+    width: 180px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 5px 10px rgb(0, 0, 0, 0.1);
+    background-color: #fff;
+    padding: 15px;
+    animation: fadeIn .2s linear;
+    
+}
+
+.container2 .container-logo .logo-parca img{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    
+}
+
+.container2 .container-logo .logo-parca img:hover{
+    transform: scale(1.2);
+}
+
+.container2 .container-logo .logo-parca h3{
+    font-size: 20px;
+    color: #2c3e50;
+
+
+}
+
+@media (max-width:768px){
+    .container2 .container-logo{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        padding: 25px 20px;
+    }
+
+    .container2 .container-logo .logo-parca{
+        width: 100%;
+    }
+
+    .container2 #search-box{
+        width: 90%;
+    }
+}
+
+@media (max-width:450px){
+    .container2 .container-logo{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        padding: 25px 20px;
+    }
+
+    .container2 .container-logo .logo-parca{
+        width: 100%;
+    }
+}
+
+
+
+/* fim parceiros mobile */
+
+
+/*Footer */
+
+.rodape{
+    display: inline-flex;
+    background-color: #f0d59aea;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #3e3e3e;
+    margin-top: 1200px;
+}
+
+.rodape .interface{
+    display: flex;
+}
+
+.rodape h5{
+    font-size: 14px;
+    padding: 30px 5px;
+}
+
+.rodape a{
+    color: #3e3e3e;
+    text-decoration: none;
+}
+
+
+
+
+/* Estilizando Mobile */
+
+@media screen and (max-width: 1296px){ 
+    html{
+        font-size: 55%;
+    }
+
+}
+
+
+@media screen and (max-width:1050px) {
+    
+    #menu-container{
+        display: none;
+    }
+
+    .slogan{
+        
+            font-size: 32px;
+            margin-top: 20px;
+            margin-left: 120px;
+    }
+
+    .slogan span{
+        color: #ba1503;
+    }
+
+    .topo-site .topo-img .banner-topo-01 {
+       
+        display: none;
+    }
+    
+    .topo-img .banner-topo-02{
+        display: block;
+        margin-left: 70px;
+    }
+
+    .topo-site h1{
+        font-size: 36px;
+        line-height: 50px;
+        margin-top: 80px;
+        margin-left: 80px;
+        
+    }
+
+    /* Topo */
+    
+    .topo-site .topo-txt h1 span{
+        color: #b30606;
+        font-size: 36px;
+        stroke: none;
+    }
+    
+    .topo-site .topo-txt p{
+        width: 620px;
+        font-size: 18px;
+        margin: 20px 0;
+        margin-left: 20px;
+        text-align: justify;
+      
+    }
+
+    /* Carrossel */
+
+    .carrosel-topo{
+        display: block;
+        padding: 20px 2%;
+        width: 600px;
+        height: 100%;
+        margin-left: -30px;
+       
+       
+    
+    }
+    
+    .carrosel-topo .flex{
+        display:inline-flex;
+        align-items: center;
+        justify-content: center;
+       
+    }
+    
+    .carrosel-topo .slider{
+        max-width: 560px;
+        max-height: 100%;
+        border: 15px solid #e6050500;
+        margin-left: 5px;
+        margin-top: 15px;
+    }
+
+    .info-txt{
+        border: 1px solid #9c6c03ea;
+        border-radius: 12px;
+        width: 150px;
+        height: 380px;
+        margin-left: 50px;
+        margin-top: 10px;
+    }
+    
+    .info-txt h5 {
+        margin-left: 25px;
+        margin-top: 10px;
+    }
+
+     /* FIM Carrossel */
+
+
+    /* TRACO */
+
+    .traco h1{
+        border: 1px solid #845202;
+        width: 700px;
+        margin-left: 90px;
+    }
+
+    /* FIM TRACO*/
+
+
+    /*especialidades */
+
+    .especialidade{
+        width: 700px;
+        padding: 20px 2%;
+        margin-top: 20px;
+        margin-left: 130px;
+        margin-bottom: 40px;
+       
+    }
+    
+    
+    .especialidade .especial-txt{
+        display: flex;
+        gap: 20px;
+        margin-left: none;
+    }
+
+    .especialidade .especial-txt2{
+        display: flex;
+        gap: 20px;
+        margin-left: -100px;
+    }
+
+    .especialidade .especial-box{
+        width: 320px;
+        padding: 20px 10px;
+        border: 1px solid #0c0c0c;
+        border-radius: 20px;
+        margin-top: 45px;
+        transform: .2s;
+        gap: 20px;
+    }
+    
+    .especialidade .especial-box:hover{ 
+        transform: scale(1.05);
+        box-shadow: 0 0 20px #0bd3655c;
+        cursor: pointer;
+    }
+    
+    .especialidade .especial-box i{
+        font-size: 14px;
+        color: #058409;
+    }
+    
+    .especialidade .especial-box h3{
+        font-size: 26px;
+        margin: 15px 0;
+        
+    }
+    
+    .especialidade .especial-box p{
+        text-align: justify;
+    }
+    
+    .especialidade h2{
+        margin-left: -80px;
+        color: #845202;
+    }
+
+     /* FIM especialidades */
+
+
+     /* Estilizar Noicias */
+     section> .noticias{
+        width: 700px;
+        padding: 20px 4%;
+        margin-top: 40px;
+        margin-bottom: 400px;
+        margin-left: 90px;
+        
+        
+    }
+    
+    .noticias .noticias-txt{
+        display: flex;
+        gap: 90px;
+        margin-top: 40px;
+    }
+    
+    .noticia-destaque .img-destaque a{
+        color: #090909;
+        text-decoration: none;
+   
+        
+    }
+
+    .noticias .img-destaque{
+        max-width: 200px;
+        max-height: 260px;
+        margin-left: -70px;
+    }
+    
+    
+    .noticias .img-destaque img{
+        width: 100%;
+        height: 100%;
+  
+      
+      
+    }
+    
+    .img-destaque p{
+        width: 200px;
+        height: 280px;
+        font-size: 12px;
+        margin-top: -80px;
+        text-align: justify;
+    
+    }
+    
+    .noticias h2{
+        color: #845202;
+        margin-left: -70px;
+    }
+    
+    /* Fim noticias */
+
+
+
+    /*parceiros*/
+
+.container-parceiros .interface{
+    display: none;
+   
+}
+ /* fim parceiros */
+
+    /* Banner Anuncio */
+    .anuncio .anuncio-img .anuncio01{
+    max-width: 700px;
+    max-height: 580px;
+    border: none;
+    margin-top: -300px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+}
+
+.anuncio .anuncio-img .anuncio02{
+    display: none;
+    margin-left: 50px;
+}
+
+.anuncio-img img{
+  width: 100%;
+  height: 100%;
+}
+
+
+/* fORM */
+
+
+
+section.banner-contato .contato-pg{
+    position: absolute;
+    max-width: 700px;
+    max-height: 580px;
+    margin-left: 80px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.banner-contato .contato-sg{
+    position: absolute;
+    display: none;
+    width: 100%;
+    max-height: 500px;
+    height: 100%;
+}
+
+.txt-end{
+    position: relative;
+    margin-top: -180px;
+    margin-left: 180px;
+}
+
+.interface form{
+    position: relative;
+    padding: 80px 4%;
+    margin-top: 200px;
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 20px;
+}
+
+.interface form input, form textarea{
+    width: 100%;
+    background-color: #f6f1f1a8;
+    border: 0;
+    outline: 0;
+    padding: 18px 15px;
+    border-radius: 15px;
+    color: #0c0c0c;
+    font-size: 18px;
+}
+.interface h5{
+   font-size: 20px;
+   font-family: 'Poppins', sans-serif;
+}
+
+
+
+/* fim fORM */
+
+/* Parceiros Mobile */
+.container2 {
+    margin-top: 100px;
+}
+
+
+.container2 .interface{
+    max-width: 700px;
+    align-items: center;
+    text-align: center;
+    display: block;
+  
+}
+
+.container2 .interface h2{
+    color: #845202;
+    margin-left: -420px;
+}
+
+/*Fim parceiros */
+
+/*Footer */
+
+.rodape{
+    display: inline-flex;
+    background-color: #f0d59aea;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #3e3e3e;
+    margin-top: 200px;
+}
+
+.rodape .interface{
+    display: flex;
+    margin-left: 100px;
+}
+
+.rodape h5{
+    font-size: 14px;
+    padding: 30px 5px;
+   
+}
+
+.rodape a{
+    color: #3e3e3e;
+    text-decoration: none;
+}
+    
+}
+
+
+
+@media screen and (max-width:360px) {
+   
+    #menu-container{
+        display: none;
+    }
+
+    .slogan{
+        
+            font-size: 16px;
+            margin-top: 20px;
+            margin-left: 20px;
+    }
+
+  
+
+    .topo-site .topo-img .banner-topo-01 {
+       
+        display: none;
+    }
+    
+
+     /* Topo */
+
+    .topo-img .banner-topo-02{
+        display: block;
+        margin-left: -20px;
+        width: 250px;
+    }
+
+    .topo-site h1{
+        font-size: 20px;
+        line-height: 50px;
+        margin-top: 80px;
+        margin-left: -5px;
+        
+    }
+
+    .topo-site .topo-txt h1 span{
+        color: #b30606;
+        font-size: 20px;
+        stroke: none;
+    }
+    
+    .topo-site .topo-txt p{
+        width: 280px;
+        font-size: 14px;
+        margin: 20px 0;
+        margin-left: -22px;
+        text-align: justify;
+      
+    }
+
+    /* Carrossel */
+
+    .carrosel-topo{
+        display: block;
+        padding: 20px 2%;
+        width: 340px;
+        height: 100%;
+        margin-left: -30px;
+       
+       
+    
+    }
+    
+    .carrosel-topo .flex{
+        display:inline-block;
+        align-items: center;
+        justify-content: center;
+       
+    }
+    
+    .carrosel-topo .slider{
+        max-width: 320px;
+        max-height: 100%;
+        border: 15px solid #e6050500;
+        margin-left: 5px;
+        margin-top: 15px;
+    }
+
+    .info-txt{
+        border: 1px solid #9c6c03ea;
+        border-radius: 12px;
+        width: 280px;
+        height: 180px;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    
+    .info-txt h5 {
+        margin-left: 25px;
+        margin-top: 10px;
+    }
+
+     /* FIM Carrossel */
+
+
+    /* TRACO */
+
+    .traco h1{
+        border: 1px solid #845202;
+        width: 300px;
+        margin-left: 40px;
+    }
+
+    /* FIM TRACO*/
+
+
+    /*especialidades */
+
+    .especialidade{
+        width: 320px;
+        padding: 20px 2%;
+        margin-top: 20px;
+        margin-left: 90px;
+        margin-bottom: 40px;
+       
+    }
+    
+    
+    .especialidade .especial-txt{
+        display: block;
+        gap: 20px;
+        margin-left: none;
+    }
+
+    .especialidade .especial-txt2{
+        display: block;
+        gap: 20px;
+        margin-left: none;
+    }
+
+
+    .especialidade .especial-box{
+        width: 250px;
+        padding: 20px 10px;
+        border: 1px solid #0c0c0c;
+        border-radius: 20px;
+        margin-top: 45px;
+        transform: .2s;
+        gap: 20px;
+    }
+    
+    .especialidade .especial-box:hover{ 
+        transform: scale(1.05);
+        box-shadow: 0 0 20px #0bd3655c;
+        cursor: pointer;
+    }
+    
+    .especialidade .especial-box i{
+        font-size: 30px;
+        color: #058409;
+    }
+    
+    .especialidade .especial-box h3{
+        font-size: 18px;
+        margin: 15px 0;
+        
+    }
+    
+    .especialidade .especial-box p{
+        font-size: 12px;
+        text-align: justify;
+    }
+    
+    .especialidade h2{
+        margin-left: -80px;
+        color: #845202;
+    }
+
+     /* FIM especialidades */
+
+
+     /* Estilizar Noicias */
+     section> .noticias{
+        max-width: 320px;
+        padding: 20px 4%;
+        margin-top: 40px;
+        margin-bottom: 400px;
+        margin-left: 60px;
+        
+        
+    }
+    
+    .noticias .noticias-txt{
+        display: block;
+        gap: 190px;
+        margin-top: 40px;
+    }
+    
+    .noticia-destaque .img-destaque a{
+        color: #090909;
+        text-decoration: none;
+   
+        
+    }
+
+    .noticias .img-destaque{
+        max-width: 200px;
+        max-height: 360px;
+        margin-left: -50px;
+    }
+    
+    
+    .noticias .img-destaque img{
+        width: 100%;
+        height: 360px;
+  
+      
+      
+    }
+    
+    .img-destaque p{
+        width: 200px;
+        height: 280px;
+        font-size: 12px;
+        margin-top: -80px;
+        text-align: justify;
+    
+    }
+    
+    .noticias h2{
+        color: #845202;
+        margin-left: -70px;
+    }
+    
+    /* Fim noticias */
+
+
+
+    /*parceiros*/
+
+.container-parceiros .interface{
+    display: none;
+   
+}
+ /* fim parceiros */
+
+ /* Banner Anuncio */
+    .anuncio .anuncio-img .anuncio01{
+    display: none;    
+    max-width: 700px;
+    max-height: 580px;
+    border: 1px solid #090909;
+    margin-top: -300px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+}
+
+.anuncio .anuncio-img .anuncio02{
+    display: block;
+    max-width: 280px;
+    margin-top: -300px;
+    margin-left: -10px;
+    margin-bottom: 50px;
+}
+
+.anuncio-img img{
+  width: 100%;
+  height: 100%;
+}
+
+
+/* fORM */
+
+
+
+section.banner-contato .contato-pg{
+    position: absolute;
+    display: none;
+    max-width: 700px;
+    max-height: 580px;
+    margin-left: 80px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.banner-contato .contato-sg{
+    position: absolute;
+    display: none;
+    width: 100%;
+    max-height: 500px;
+    height: 100%;
+}
+
+.txt-end{
+    position: relative;
+    margin-top: -180px;
+    margin-left: 180px;
+}
+
+.interface form{
+    position: relative;
+    padding: 80px 4%;
+    margin-top: 200px;
+    max-width: 340px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: -40px;
+}
+
+/* fim fORM */
+
+
+
+/* Parceiros Mobile */
+.container2 {
+    margin-top: 100px;
+    margin-left: -20px;
+}
+
+
+.container2 .interface{
+    max-width: 300px;
+    align-items: center;
+    text-align: center;
+    display: block;
+  
+}
+
+.container2 .interface h2{
+    color: #845202;
+    margin-left: -100px;
+}
+
+/*Fim parceiros */
+
+/*Footer */
+
+.rodape{
+    display: block;
+    background-color: #f0d59aea;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #3e3e3e;
+    margin-top: 200px;
+}
+
+.rodape .interface{
+    display: block;
+    margin-left: 20px;
+}
+
+.rodape .interface .rodape-02{
+    margin-left: 50px;
+}
+
+.rodape h5{
+    font-size: 12px;
+    padding: 5px 5px;
+   
+}
+
+.rodape a{
+    color: #3e3e3e;
+    text-decoration: none;
+    
+}
+
+
+
+}

@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+header> .interface{
+    width: 1280px;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f7edc0;
+}
+
+header{
+    padding: 40px 2%; 
+ }
+ 
+ header > .interface{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+    
+     padding: 20px 70px;
+     position: relative;
+     transition: all 0.2s;
+     
+    
+ }
+ 
+ .interface ul{
+     display: flex;
+     list-style-type: none;
+     text-decoration: none;
+     align-items: center;
+     margin-top: 5px;
+ }
+ 
+ .interface .nav-menu .nav-item2{
+    margin-top: 7px;
+     padding-bottom: 8px;
+;
+ }
+ 
+ .interface  ul li a{
+     font-family: 'REM', sans-serif;
+     color: #0f0f0f;
+     font-size: 18px;
+     transition: .5s;
+     text-decoration: none;
+     margin-right: 15px;
+     margin-top: 5px;
+     padding-top: 10px;
+     
+ }
+ 
+ .nav-menu ul li a:hover{
+     color: #910303;
+     border: #faf8f8;
+     transform: scale(1.05);
+ }
+ 
+ 
+ .interface .item a{
+     font-family: 'Poppins', sans-serif;
+     color: #0c0c0c;
+ }
+ 
+ 
+ .interface .item a:hover{
+     color: #e60505;
+     
+ }
+ .nav-menu ul li a{
+     padding-top: 5px;
+     display: inline-block;
+ }
+ 
+ .nav-menu ul li{
+     display: inline-block;
+     position: relative;
+ }
+ .nav-menu ul ul{
+     width: 860px;
+     height: 30px;
+     display: none;
+     position: absolute;
+     line-height: 7px;
+     margin-left: -30px;
+     left: 0;
+   
+ }
+ 
+ .nav-menu ul li:hover ul{
+     display: block;
+ }
+ 
+ .nav-menu ul ul li a{
+     display: inline-block;
+     margin: 0 5px;
+     padding: 10px 0;
+     margin-block-start: 0px;
+     font-size: 16px;
+   
+ }   
+
+
+.social-midia button{
+   
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border:1px solid #faf8f8;
+    background: #e79222bc;
+    font-size: 19px;
+    color: #fcf9f9;
+    cursor: pointer;
+    transition: .3s;
+   
+}
+
+.social-midia button:hover{
+    box-shadow: 0px 0px 8px #fff;
+    transform: scale(1.05);
+}
+
+
+
+@media screen and (max-width: 1050px) {
+    
+    #menu-container{
+        display:none;
+    }
+
+    .logo .img{
+        display: none;
+    }
+}
