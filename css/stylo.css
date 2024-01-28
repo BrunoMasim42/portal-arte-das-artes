@@ -921,7 +921,9 @@ section.banner-contato .contato-pg{
 
 
 
-@media screen and (max-width:360px) {
+
+
+@media screen and (max-width: 560px) {
    
     #menu-container{
         display: none;
