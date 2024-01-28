@@ -1258,6 +1258,7 @@ section.banner-contato .contato-pg{
 
 .rodape{
     display: block;
+    width: 320px;
     background-color: #f0d59aea;
     display: flex;
     justify-content: center;
@@ -1268,16 +1269,19 @@ section.banner-contato .contato-pg{
 
 .rodape .interface{
     display: block;
-    margin-left: 20px;
+    margin-left: 10px;
 }
 
 .rodape .interface .rodape-02{
+    width: 200px;
     margin-left: 50px;
 }
 
 .rodape h5{
-    font-size: 12px;
+    width: 300px;
+    font-size: 10px;
     padding: 5px 5px;
+    background-color: #880303;
    
 }
 
